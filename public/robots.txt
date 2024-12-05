@@ -1,0 +1,11 @@
+# Allow all bots to crawl the site
+User-agent: *
+Allow: /
+
+# Disallow crawling of specific files or directories
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /build/
+
+# Sitemap location (if applicable)
+# Sitemap: https://yourdomain.com/sitemap.xml 
